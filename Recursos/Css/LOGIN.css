@@ -1,0 +1,88 @@
+.BodyAbu{
+    background: #9053c7;
+    background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+    background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
+    background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    width: 100%;  
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.progress-bar {
+    color: #333;
+} 
+
+/*
+Reference:
+http://www.bootstrapzen.com/item/135/simple-login-form-logo/
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	outline: none;
+}
+
+    .form-control {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;    
+	}
+
+body {
+	background: url(http://i.imgur.com/GHr12sH.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.login-form {
+	margin-top: 60px;
+	
+}
+
+form-logins{
+	color: #5d5d5d;
+	background: #f2f2f2;
+	padding: 26px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.formimg {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 35px;
+	}
+.forminput{
+		font-size: 18px;
+		margin: 16px 0;
+	}
+.formbutton {
+		font-size: 18px;
+		margin: 16px 0;
+	} 
+div{
+		text-align: center;
+	}
+	
+.form-links {
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 50px;
+}
+.form-links a {
+		color: #fff;
+	}

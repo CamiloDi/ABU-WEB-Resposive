@@ -1,0 +1,29 @@
+.ColorAbu{
+    background: #9053c7;
+    background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+    background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
+    background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    width: 100%;
+   /* display: flex;*/
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+@media (min-width:768px){
+    .IconBandera{
+        width: 20px;
+    }
+    .IconCenter{
+        display:block;
+        margin:auto;
+    }
+}
+
+.IconBandera{
+    width: 20px;
+}
+
+

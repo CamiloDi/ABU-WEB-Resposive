@@ -1,0 +1,16 @@
+.TextCenter{
+text-align: center;
+background-color: white;
+}
+.invisible {
+    display: none;
+}
+.margenes{
+    margin-left:5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.tamanio{
+    width: 22.5%;
+}

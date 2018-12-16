@@ -1,0 +1,13 @@
+﻿{
+    "usuario":[{
+        "id": "1",
+        "usuario": "rahumada",
+        "password": "rahumada1",
+        "estado": "Vigente",
+        "Nombre": "Rodrigo Ahumada",
+		"Rut": "15.235.345-k",
+		"sexo": "Masculino",
+		"correo" : "rahumada@gmail.com"
+        }
+    ]
+}
