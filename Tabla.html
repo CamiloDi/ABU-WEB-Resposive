@@ -171,7 +171,7 @@ alert('entre en btn_entrantes');
 });
 
 function crear_alertas(idusuario){
-var ajaxurl = "https://api-rest-beacons.herokuapp.com/alertas/"+idusuario;
+/*var ajaxurl = "https://api-rest-beacons.herokuapp.com/alertas/"+idusuario;
  $.ajax({
             type: "GET", //rest Type
             dataType: 'json', //mispelled
@@ -181,7 +181,12 @@ var ajaxurl = "https://api-rest-beacons.herokuapp.com/alertas/"+idusuario;
             success: function (data) {
                 alert(data[0]);                
             }
- });
+ });*/
+ var ajaxurl = "https://api-rest-beacons.herokuapp.com/alertas/"+idusuario;
+ $.get(ajaxurl, function(data, status){
+  console.log(data);
+  });
+
 }
 
 
